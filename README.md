@@ -1,0 +1,1 @@
+As a group, we simulated a model of the Mo'orea coral reef from 2004 to 2024 by rolling dice and placing tokens. At the end, we were left with a time series of coral percent cover. 
