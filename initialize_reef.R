@@ -36,3 +36,32 @@ reef_matrix[cell_row_c, cell_col_c] <- 1
 reef_matrix
 
 # do the rest for 9, 22, 8, 1, 7
+cell_d <- 9
+cell_row_d <- (9 - 1) %/% 5 + 1
+cell_col_d <- (9 - 1) %% 5 + 1
+reef_matrix[cell_row_d, cell_col_d] <- 1
+reef_matrix
+
+cell_e <- 22
+cell_row_e <- (22 - 1) %/% 5 + 1
+cell_col_e <- (22 - 1) %% 5 + 1
+reef_matrix[cell_row_e, cell_col_e] <- 1
+reef_matrix
+
+cell_f <- 8
+cell_row_f <- (8 - 1) %/% 5 + 1
+cell_col_f <- (8 - 1) %% 5 + 1
+reef_matrix[cell_row_f, cell_col_f] <- 1
+reef_matrix
+
+cell_g <- 1
+cell_row_g <- (1 - 1) %/% 5 + 1
+cell_col_g <- (1 - 1) %% 5 + 1
+reef_matrix[cell_row_g, cell_col_g] <- 1
+reef_matrix
+
+cell_h <- 7
+cell_row_h <- (7 - 1) %/% 5 + 1
+cell_col_h <- (7 - 1) %% 5 + 1
+reef_matrix[cell_row_h, cell_col_h] <- 1
+reef_matrix
