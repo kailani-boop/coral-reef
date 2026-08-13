@@ -2,16 +2,7 @@ source("R/util.R")
 set.seed(221)
 
 # STEP 1: Initialize your reef
-reef <- matrix(0, nrow = 5, ncol = 5)
-reef
-rc <- sample(1:25, 8)
-rc
-for(i in rc){
-    rc_row <- (i - 1) %/% 5 + 1
-    rc_col <- (i - 1) %% 5 + 1
-    reef[rc_row, rc_col] <- 1
-}
-print(reef)
+reef <- place_coral(coral = 8)
 
 # Your reef should look like this:
 #      [,1] [,2] [,3] [,4] [,5]
